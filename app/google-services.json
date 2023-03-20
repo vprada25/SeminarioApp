@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "688540408111",
+    "project_id": "appseminario-3ac0b",
+    "storage_bucket": "appseminario-3ac0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688540408111:android:faec5aba445d56c8c7e9da",
+        "android_client_info": {
+          "package_name": "com.example.seminarioapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688540408111-17pm9jh0oekgscf9g4oie7q2ghd4qeh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seminarioapp",
+            "certificate_hash": "fcb2dcde7a7e946938434b8026af2270199f6b92"
+          }
+        },
+        {
+          "client_id": "688540408111-bco7ci67ehkcehlu4krthhtbp4pbq1f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4EiRdJnHemePJKPowEQmEO8h5JUxqSeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688540408111-bco7ci67ehkcehlu4krthhtbp4pbq1f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
