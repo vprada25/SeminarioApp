@@ -6,13 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/top_background1" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="318dp">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="300dp"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Iniciar sesión" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_below="@+id/btn_login"
+            android:layout_centerHorizontal="true"
+            android:text="Registrarse" />
+
+        <TextView
+            android:layout_width="347dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="105dp"
+            android:text="Bienvenido !"
+            android:textColor="#6672ff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

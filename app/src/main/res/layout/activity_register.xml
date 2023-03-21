@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/icons"
+    android:fitsSystemWindows="false"
+    android:rotation="0"
+    android:rotationX="0"
+    android:rotationY="0"
+    tools:actionBarNavMode="standard"
+    tools:context=".RegisterActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/top_background1" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="844dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="198dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_game" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/textUsers"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="0dp"
+                android:drawableStart="@drawable/name"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Usuario"
+                android:inputType="textPersonName"
+                android:textColorHint="#3B60BC"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/textEmail"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="0dp"
+                android:drawableStart="@drawable/email"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#3B60BC"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="0dp"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColorHint="#3B60BC"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:textColor="@color/icons"
+            app:iconTint="@color/primary" />
+
+        <TextView
+            android:id="@+id/dateRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Fecha"
+            android:textColor="@color/primary"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
